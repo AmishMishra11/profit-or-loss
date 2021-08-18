@@ -1,28 +1,32 @@
 :root {
-  --primary: aquamarine;
-  --secondary: grey;
+  --primary: #9dc183;
+  --secondary: #dfc7c1;
 }
 body {
   text-align: center;
+  background-color: var(--secondary);
 }
 label {
   display: block;
   padding: 1rem;
 }
+
 button {
-  color: var(--primary);
+  text-align: center;
   font-weight: bold;
   background: transparent;
   border-radius: 0.2rem;
   padding: 0.3rem;
   display: block;
   margin: auto;
+  margin-top: 0.5rem;
   background-color: var(--secondary);
 }
 .container {
-  background-color: aquamarine;
+  background-color: var(--primary);
   padding: 1rem;
   border-radius: 1.5rem;
   width: 40%;
   margin: auto;
+  text-align: center;
 }
