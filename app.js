@@ -17,13 +17,14 @@ function checkStonks() {
       "yes profit is " +
       profit +
       "  and profit percentage is " +
-      profitPercentage;
+      profitPercentage +
+      "%";
   } else if (initial > final) {
     var loss = (initial - final) * stonks;
     var lossPercentage = (loss / initial) * 100;
     message.style.color = "red";
     message.innerText =
-      "no loss is " + loss + "  and loss percentage is " + lossPercentage;
+      "no loss is " + loss + "  and loss percentage is " + lossPercentage + "%";
   } else {
     message.innerText = "You gain nothing you lose nothing";
   }
