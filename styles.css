@@ -10,6 +10,10 @@ label {
   display: block;
   padding: 1rem;
 }
+input {
+  padding: 1rem;
+  width: 80%;
+}
 
 button {
   text-align: center;
